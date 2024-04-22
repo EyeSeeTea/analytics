@@ -408,10 +408,10 @@ msgid "December"
 msgstr "Décembre"
 
 msgid "Week {{weekNumber}}"
-msgstr "Semaine{{NuméroSemaine}}"
+msgstr "Semaine {{weekNumber}}"
 
 msgid "Bi-Week {{biWeekNumber}}"
-msgstr "Bimensuel{{biWeekNumber}}"
+msgstr "Bi-Semaine {{biWeekNumber}}"
 
 msgid "Daily"
 msgstr "Quotidien"
