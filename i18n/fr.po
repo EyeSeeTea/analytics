@@ -1,4 +1,4 @@
-# 
+#
 # Translators:
 # Edem Kossi <ekossi@hispwca.org>, 2021
 # Bram Piot <bram.piot@gmail.com>, 2021
@@ -8,19 +8,69 @@
 # Gabriela Rodriguez <grodriguezcoronado@gmail.com>, 2021
 # phil_dhis2, 2021
 # Viktor Varland <viktor@dhis2.org>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: i18next-conv\n"
-"POT-Creation-Date: 2021-10-04T08:35:00.972Z\n"
+"POT-Creation-Date: 2024-04-24T09:30:56.586Z\n"
 "PO-Revision-Date: 2020-04-28 22:05+0000\n"
 "Last-Translator: Viktor Varland <viktor@dhis2.org>, 2021\n"
 "Language-Team: French (https://www.transifex.com/hisp-uio/teams/100509/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "view only"
+msgstr "view only"
+
+msgid "view and edit"
+msgstr "view and edit"
+
+msgid "all users ({{accessLevel}})"
+msgstr "all users ({{accessLevel}})"
+
+msgid "{{userOrGroup}} ({{accessLevel}})"
+msgstr "{{userOrGroup}} ({{accessLevel}})"
+
+msgid "Shared with {{commaSeparatedListOfUsersAndGroups}}"
+msgstr "Shared with {{commaSeparatedListOfUsersAndGroups}}"
+
+msgid "Not shared with any users or groups"
+msgstr "Not shared with any users or groups"
+
+msgid "About this visualization"
+msgstr "About this visualization"
+
+msgid "No description"
+msgstr "No description"
+
+msgid "Last updated {{time}}"
+msgstr "Last updated {{time}}"
+
+msgid "Created {{time}} by {{author}}"
+msgstr "Created {{time}} by {{author}}"
+
+msgid "Viewed {{count}} times"
+msgid_plural "Viewed {{count}} times"
+msgstr[0] "Viewed 1 time"
+msgstr[1] "Viewed {{count}} times"
+
+msgid "Notifications"
+msgstr "Notifications"
+
+msgid "You're subscribed and getting updates about new interpretations."
+msgstr "You're subscribed and getting updates about new interpretations."
+
+msgid "Unsubscribe"
+msgstr "Unsubscribe"
+
+msgid "Subscribe to get updates about new interpretations."
+msgstr "Subscribe to get updates about new interpretations."
+
+msgid "Subscribe"
+msgstr "Subscribe"
 
 msgid "Data Type"
 msgstr "Type de données"
@@ -92,13 +142,13 @@ msgid "All metrics"
 msgstr "Tous les éléments"
 
 msgid "Move to {{axisName}}"
-msgstr "Déménager à {{nomdel'axe}}"
+msgstr "Déménager à {{axisName}}"
 
 msgid "Add to {{axisName}}"
-msgstr "Ajouter à {{nomdel'axe}} "
+msgstr "Ajouter à {{axisName}}"
 
 msgid "Not available for {{visualizationType}}"
-msgstr "Non disponible pour {{Typedevisualisation}}"
+msgstr "Non disponible pour {{visualizationType}}"
 
 msgid "Remove Assigned Categories"
 msgstr "Supprimer les Catégories Attribuées"
@@ -122,27 +172,29 @@ msgid "Dimension recommended with selected data"
 msgstr "Dimension recommandée avec les données sélectionnées"
 
 msgid "All items"
-msgstr ""
+msgstr "Tous les éléments"
 
 msgid "Automatically include all items"
-msgstr ""
+msgstr "Inclure automatiquement tous les éléments"
 
 msgid ""
 "Select all {{- dimensionTitle}} items. With this option, new items added in "
 "the future will be automatically included."
 msgstr ""
+"Sélectionnez tous les éléments {{- dimensionTitle}}. Avec cette option, les nouveaux éléments ajoutés a "
+"l’avenir seront automatiquement inclus."
 
 msgid "Manually select items..."
-msgstr ""
+msgstr "Sélectionnez manuellement les éléments..."
 
 msgid "Nothing found in {{- dimensionTitle}}"
-msgstr ""
+msgstr "Rien trouvé dans {{- dimensionTitle}}"
 
 msgid "Search"
 msgstr "Chercher"
 
 msgid "Nothing found for {{searchTerm}}"
-msgstr "Rien retrouvé pour {{searchTerm}}"
+msgstr "Rien trouvé pour {{searchTerm}}"
 
 msgid "Delete {{fileType}}"
 msgstr "Supprimer {{fileType}}"
@@ -150,6 +202,7 @@ msgstr "Supprimer {{fileType}}"
 msgid ""
 "This {{fileType}} and related interpretations will be deleted. Continue?"
 msgstr ""
+"Ce {{fileType}} et les interprétations associées seront supprimés. Continuer?"
 
 msgid "Cancel"
 msgstr "Annuler"
@@ -215,7 +268,7 @@ msgid "Anyone"
 msgstr "Toute personne"
 
 msgid "Only you"
-msgstr ""
+msgstr "Seulement vous"
 
 msgid "Others"
 msgstr "Autres"
@@ -236,107 +289,122 @@ msgid "Clear filters"
 msgstr "Effacer les filtres"
 
 msgid "{{firstItemIndex}}-{{lastItemIndex}} of {{totalNumberOfItems}}"
-msgstr ""
+msgstr "{{firstItemIndex}}-{{lastItemIndex}} sur {{totalNumberOfItems}}"
 
 msgid "All charts"
-msgstr ""
+msgstr "Tous les graphiques"
 
 msgid "Open"
 msgstr "Ouvrir"
 
 msgid "Couldn't load items"
-msgstr ""
+msgstr "Impossible de charger les éléments"
 
 msgid ""
 "There was a problem loading items. Try again or contact your system "
 "administrator."
 msgstr ""
+"Un problème est survenu lors du chargement des éléments. Réessayez ou contactez votre "
+"administrateur système."
 
 msgid "No items found. Create a new to get started."
-msgstr ""
+msgstr "Aucun élément trouvé. Créez-en un nouveau pour commencer."
 
 msgid ""
 "No items found. Try adjusting your search or filter options to find what "
 "you're looking for."
-msgstr ""
+msgstr "Aucun élément trouvé. Essayez d'ajuster vos options de recherche ou de filtrage pour "
+"trouver ce que vous recherchez."
 
 msgid "Create new"
 msgstr "Créer nouveau"
 
 msgid "Open a visualization"
-msgstr ""
+msgstr "Ouvrir une visualisation"
 
 msgid "Loading visualizations"
-msgstr ""
+msgstr "Chargement des visualisations"
 
 msgid "Couldn't load visualizations"
-msgstr ""
+msgstr "Impossible de charger les visualisations"
 
 msgid ""
-"There was a problem loading visualizations. Try again or contact your system"
-" administrator."
+"There was a problem loading visualizations. Try again or contact your system "
+"administrator."
 msgstr ""
+"Un problème est survenu lors du chargement des visualisations. Réessayez ou contactez "
+"votre administrateur système."
 
 msgid "No visualizations found. Click New visualization to get started."
-msgstr ""
+msgstr "Aucune visualisation trouvée. Cliquez sur Nouvelle visualisation pour commencer."
 
 msgid ""
-"No visualizations found. Try adjusting your search or filter options to find"
-" what you're looking for."
+"No visualizations found. Try adjusting your search or filter options to find "
+"what you're looking for."
 msgstr ""
+"Aucune visualisation trouvée. Essayez d'ajuster vos options de recherche ou de filtrage "
+"pour trouver ce que vous recherchez."
 
 msgid "New visualization"
-msgstr ""
+msgstr "Nouvelle visualisation"
 
 msgid "Open a map"
-msgstr ""
+msgstr "Ouvrir une carte"
 
 msgid "Loading maps"
-msgstr ""
+msgstr "Chargement des cartes"
 
 msgid "Couldn't load maps"
-msgstr ""
+msgstr "Impossible de charger les cartes"
 
 msgid ""
 "There was a problem loading maps. Try again or contact your system "
 "administrator."
 msgstr ""
+"Un problème est survenu lors du chargement des cartes. Réessayez ou contactez "
+"votre administrateur système."
 
 msgid "No maps found. Click New map to get started."
-msgstr ""
+msgstr "Aucune carte trouvée. Cliquez sur Nouvelle carte pour commencer."
 
 msgid ""
 "No maps found. Try adjusting your search or filter options to find what "
 "you're looking for."
 msgstr ""
+"Aucune carte trouvée. Essayez d'ajuster vos options de recherche ou de filtrage "
+"pour trouver ce que vous recherchez."
 
 msgid "New map"
-msgstr ""
+msgstr "Nouvelle carte"
 
 msgid "Open an event report"
-msgstr ""
+msgstr "Ouvrir un rapport d'événement"
 
 msgid "Loading event reports"
-msgstr ""
+msgstr "Chargement des rapports d'événements"
 
 msgid "Couldn't load event reports"
-msgstr ""
+msgstr "Impossible de charger les rapports d'événements"
 
 msgid ""
 "There was a problem loading event reports. Try again or contact your system "
 "administrator."
 msgstr ""
+"Un problème est survenu lors du chargement des rapports d'événements. Réessayez "
+"ou contactez votre administrateur système."
 
 msgid "No event reports found. Click New event report to get started."
-msgstr ""
+msgstr "Aucun rapport d'événement trouvé. Cliquez sur Nouveau rapport d'événement pour commencer."
 
 msgid ""
 "No event reports found. Try adjusting your search or filter options to find "
 "what you're looking for."
 msgstr ""
+"Aucun rapport d'événement trouvé. Essayez d'ajuster vos options de recherche "
+"ou de filtrage pour trouver ce que vous recherchez."
 
 msgid "New event report"
-msgstr ""
+msgstr "Nouveau rapport d'événement"
 
 msgid "Options"
 msgstr "Options"
@@ -588,7 +656,7 @@ msgid "Last 5 years"
 msgstr "5 dernières années"
 
 msgid "Last 10 years"
-msgstr ""
+msgstr "10 dernières années"
 
 msgid "Days"
 msgstr "Jours"
@@ -762,19 +830,19 @@ msgid "Bottom"
 msgstr "Bas"
 
 msgid "{{dynamicOuNames}} and {{lastOuName}}"
-msgstr "{{NomsOudynamiques}} et {{dernièreOuNom}}"
+msgstr "{{dynamicOuNames}} et {{lastOuName}}"
 
 msgid "{{allDynamicOuNames}} levels"
-msgstr "{{touslesnomsOudynamiques}} niveaux"
+msgstr "{{allDynamicOuNames}} niveaux"
 
 msgid "{{allDynamicOuNames}} groups"
-msgstr "{{touslesnomsOudynamiques}} groupes"
+msgstr "{{allDynamicOuNames}} groupes"
 
 msgid "{{allDynamicOuNames}} levels in {{staticOuNames}}"
-msgstr "{{touslesnomsOudynamiques}} niveaux dans {{NomsOustatiques}} "
+msgstr "{{allDynamicOuNames}} niveaux dans {{staticOuNames}} "
 
 msgid "{{allDynamicOuNames}} groups in {{staticOuNames}}"
-msgstr "{{touslesnomsOudynamiques}} groupes dans {{NomsOustatiques}}"
+msgstr "{{allDynamicOuNames}} groupes dans {{staticOuNames}}"
 
 msgid "{{percentage}}% of total x values"
 msgstr "{{percentage}}% de nombre total de X valeurs"
@@ -864,8 +932,8 @@ msgstr ""
 "période comme filtre."
 
 msgid ""
-"Compare parts of a whole against related elements vertically. Recommend data"
-" or org. unit as series."
+"Compare parts of a whole against related elements vertically. Recommend data "
+"or org. unit as series."
 msgstr ""
 "Comparez les parties d'un tout avec des éléments connexes verticalement. "
 "Recommander des données ou une unité d'organisation en série."
@@ -921,8 +989,8 @@ msgstr ""
 "les dernières données."
 
 msgid ""
-"View the relationship between two data items at a place or time. Recommended"
-" for finding outliers."
+"View the relationship between two data items at a place or time. Recommended "
+"for finding outliers."
 msgstr ""
 "Affichez la relation entre deux éléments de données à un endroit ou à un "
 "temps. Recommandé pour trouver des valeurs atypiques"
